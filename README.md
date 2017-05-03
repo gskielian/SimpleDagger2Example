@@ -29,7 +29,7 @@ Simply shows how to get a Big Composite Class (in this case "BigClass") from Dag
 
 #### Big Class
 
-Compsosite Class which Depends on ClassA and ClassB
+Composite Class which Depends on ClassA and ClassB
 
 #### ClassA
 
