@@ -32,9 +32,10 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
 
+    //Dagger2 Dependencies
     compile 'com.google.dagger:dagger:2.10'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.10'
     compile 'com.google.dagger:dagger-android:2.10'
-    compile 'com.google.dagger:dagger-android-support:2.10' // if you use the support libraries
+    compile 'com.google.dagger:dagger-android-support:2.10'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.10'
 }

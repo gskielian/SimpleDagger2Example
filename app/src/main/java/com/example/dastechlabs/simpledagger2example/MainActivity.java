@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Dagger2's built code to get your composite class, in this cases bigClass
         AlphabetComponent component = DaggerAlphabetComponent.create();
         bigClass = component.getBigClass();
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //we can use bigClass as we normally would
                 Snackbar.make(view, bigClass.getString(), Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 //                Snackbar.make(view, String.valueOf(bigClass.getSum()), Snackbar.LENGTH_LONG)
