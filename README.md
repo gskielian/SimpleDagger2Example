@@ -1,10 +1,10 @@
 # SimpleDagger2Example
-Example implementation of Dagger2 with steps
+A basic example of Dagger2 with steps
 
 
 # Steps:
 
-0. Create classes
+0. setup your app level build.gradle
 1. @Inject at constructors to allow them to
 participate in DI
 2. create @module class with
