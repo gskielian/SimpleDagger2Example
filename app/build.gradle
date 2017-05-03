@@ -17,9 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-        configurations.all {
-            resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
-        }
+    // Dagger2 needs the following as well
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
 }
 
 dependencies {
