@@ -31,7 +31,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
     compile 'com.android.support:design:25.3.1'
+
+    //JUnit4 Deps
     testCompile 'junit:junit:4.12'
+
+    //Mockito Deps
+    testCompile 'org.mockito:mockito-core:1.10.19'
 
     //Dagger2 Dependencies
     compile 'com.google.dagger:dagger:2.10'
@@ -39,4 +44,6 @@ dependencies {
     compile 'com.google.dagger:dagger-android:2.10'
     compile 'com.google.dagger:dagger-android-support:2.10'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.10'
+
+
 }
