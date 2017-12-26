@@ -9,5 +9,8 @@ import dagger.Component;
  */
 @Component(modules=AlphabetModules.class)
 public interface AlphabetComponent {
-    BigClass getBigClass();
+    BigClass provideBigClass();
+
+    void inject(MainActivity mainActivity);
+
 }

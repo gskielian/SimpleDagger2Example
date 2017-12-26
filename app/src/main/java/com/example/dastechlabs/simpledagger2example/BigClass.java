@@ -17,9 +17,6 @@ public class BigClass {
         this.classB = classB;
     }
 
-    @Inject
-
-
     public int getSum() {
         return classA.getValue1() + classA.getValue2();
     }
